@@ -1,0 +1,477 @@
+:root {
+    --bg-color-greyred: #eb5757;
+    --bg-color-grayblack: #333;
+
+
+    --color-notwhite: #dddddd;
+    --color-greyblack: #333;
+    --color-white: #ffffff;
+    --color-black: #000;
+
+
+    --text-color1: #eb5757;
+    --text-color2: #222;
+    --text-color3: #f9f9f9;
+    --text-color4: #fff;
+    --text-color5: #000;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Alkatra:wght@400;500;600;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+/* font-family: Sen, sans-serif; */
+/* font-family: 'Alkatra', cursive; */
+/* font-family: 'Alice', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inknut Antiqua', serif;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+    background-color: var(--bg-color-greyred);
+    position: fixed;
+}
+
+.containar {
+    width: 1180px;
+    margin: auto;
+}
+
+.logo {
+    padding-top: 22px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    padding-top: 28px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 7px 12px;
+    font-size: 18px;
+    margin-left: 40px;
+    border-radius: 5px;
+    color: var(--color-notwhite);
+    transition: .4s;
+}
+
+.menu ul li a:hover {
+    background-color: var(--color-greyblack);
+}
+
+.gap {
+    clear: both;
+}
+
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/banner.jpg);
+    background-size: 100% 100%;
+}
+
+.leyar {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(255, 255, 255, 0.205));
+}
+
+#banner h1 {
+    color: var(--text-color3);
+    font-size: 60px;
+    line-height: 75px;
+}
+
+#banner p {
+    color: var(--text-color3);
+    line-height: 30px;
+
+}
+
+.ban-box {
+    width: 30%;
+    height: auto;
+    padding-top: 190px;
+}
+
+.ban-btn {
+    width: 190px;
+    height: 45px;
+    border-radius: 5px;
+    color: var(--text-color3);
+    background-color: transparent;
+    border: 2px solid currentColor;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ban-btn:hover {
+    background-color: var(--text-color3);
+    color: var(--color-black);
+}
+
+
+
+#meddil {
+    width: 100%;
+    height: 90px;
+    margin: 50px 0px;
+}
+
+.med1-left {
+    width: 49%;
+    padding-top: 10px;
+    float: left;
+}
+
+.med1-left p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.med1-left h2 {
+    font-size: 40px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.med1-right {
+    float: right;
+    width: 49%;
+}
+
+.med1-right p {
+    padding: 0px 20px;
+}
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 60px;
+}
+
+.m-box1 {
+    width: auto;
+    height: 300px;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.m-box2 {
+    width: auto;
+    height: 300px;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.m-box3 {
+    width: auto;
+    height: 300px;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.u-box-up {
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.u-box-doun {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-black)
+}
+
+.u-box-up h2 {
+    padding: 40px 30px;
+    font-size: 40px;
+    color: var(--color-white);
+}
+
+.u-box-doun h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    color: var(--color-white);
+}
+
+.u-box-doun1 h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 43px;
+    color: var(--color-white);
+}
+
+.m-g-box {
+    width: auto;
+    height: auto;
+    transition: .5s;
+}
+
+.m-g-box:hover {
+    box-shadow: 10px 10px 100px red;
+    border-radius: 5px;
+}
+
+.m-g-box2 {
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.m-g-box2:hover {
+    box-shadow: 10px 10px 100px rgb(13, 0, 255);
+}
+
+.m-g-box p {
+    color: var(--color-black);
+    padding-top: 140px;
+}
+
+.m-g-box2 p {
+    color: var(--color-black);
+    padding-top: 165px;
+}
+
+
+
+
+#meddil3 {
+    margin-top: 160px;
+    width: 100%;
+    height: 75vh;
+    background-image: url(img/banner2.jpg);
+    background-size: 100% 100%;
+}
+
+.text-box {
+    width: 45%;
+    height: auto;
+    float: right;
+    padding-top: 150px;
+}
+
+.text-box h2 {
+    text-align: right;
+    font-size: 40px;
+    color: var(--color-white);
+}
+
+.text-box p {
+    text-align: right;
+    color: var(--color-white);
+    padding-top: 15px;
+}
+
+.ban-btn2 {
+    float: right;
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.ban-btn2:hover {
+    background-color: var(--text-color1);
+}
+
+
+
+
+
+#meddil4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+
+.t-box {
+    padding-top: 40px;
+}
+
+.t-box h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.t-box p {
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+}
+
+.griditem2 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding-top: 45px;
+}
+
+.grid1 {
+    width: auto;
+    height: auto;
+}
+
+.grid1 img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.grid2 {
+    width: auto;
+    height: auto;
+}
+
+.grid2 img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.grid3 {
+    width: auto;
+    height: auto;
+}
+
+.grid3 img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.b-box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.b-box h3 {
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.b-box button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    background-color: var(--bg-color-greyred);
+    border-radius: 5px;
+    color: var(--color-white);
+    transition: .7s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.b-box button:hover {
+    background-color: var(--bg-color-grayblack);
+}
+
+.btn-l {
+    width: 200px;
+    margin: 50px auto;
+}
+
+.lastbtn {
+    width: 190px;
+    height: 35px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    transition: .7s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lastbtn:hover {
+    background-color: var(--bg-color-greyred);
+}
+
+samp {
+    color: var(--text-color1);
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: var(--bg-color-grayblack);
+}
+
+.b-1 {
+    width: 100%;
+    height: 100px;
+}
+
+.img-b {
+    width: 30%;
+    float: left;
+}
+
+.b-1 img {
+    padding-top: 35px;
+}
+
+.socal {
+    width: 15%;
+    float: right;
+}
+
+i {
+    padding: 5px;
+    font-size: 35px;
+    color: var(--color-white);
+    margin-top: 20px;
+}
+
+i:hover {
+    color: var(--color-notwhite);
+}
+
+.b-2 {
+    width: 200px;
+    color: var(--color-white);
+    margin: auto;
+}
+
+.b-2 a {
+    color: var(--text-color1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.b-2 a:hover {
+    color: var(--color-notwhite);
+}
